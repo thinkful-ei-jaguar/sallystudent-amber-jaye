@@ -20,16 +20,56 @@
     <script type="text/babel">
         // App Component
         function App() {
-        return (
-            <div>
-            <h1>Hello, everyone!</h1>
-            <p>We think,</p>
-            <ul>
-                <li>React</li>
-                <li>is</li>
-                <li>brilliant!</li>
-            </ul>
-            </div>
+            return (
+                <div>
+                    <header>
+                        <h1> Sally Student's Resume </h1>
+                    </header>
+                    <main>
+                        <section class = "contact">
+                            <h2>Contact Info</h2>
+                            <address>
+                                <p>Name: Sally Student</p>
+                                <a href="mailto:sallystudent@gmail.com">Mail: sallystudent@gmail.com</a><br />
+                                <a href="tel:+13115552368">Phone: (311) 555-2368</a>
+                            </address>
+                            <img src="Sally.jpg"
+                                height="300"
+                                alt="A picture of Sally Student" />
+                        </section>
+                    
+                        <section class = "education">
+                            <h2>Education</h2>
+                            <ul>
+                            <li>California State Polytechnic University, Pomona
+                                <ul>
+                                <li>Major: Computer Science</li>
+                                <li>GPA: 3.0</li>
+                                <li>Estimated graduation: April 2020</li>
+                                </ul>
+                            </li>
+                            </ul>
+                        </section>
+
+                        <section class = "employment">
+                            <h2>Employment History</h2>
+                            <ul>
+                            <li>WALMART, Cashier
+                                <ul> 
+                                <li> Aug, 2019 - Present </li>
+                                <li> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+                                </ul>
+                            </li>
+                            <li>FOREVER21, Sales Associate
+                                <ul> 
+                                <li> Mar, 2018 - Jul, 2019</li>
+                                <li> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+                                </ul>
+                            </li>
+                            </ul>
+                        </section>
+                    </main>
+                </div>
             );
         };
 
